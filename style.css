@@ -1,0 +1,130 @@
+body{
+    font-family: 'Bitter', serif;
+}
+.sec1{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 150px;
+}
+.div1{
+    padding-top: 50px;
+    padding-left: 15px;
+}
+.div1 h1{
+    font-size: 60px;
+    line-height: 15px;
+    color: rgb(122, 122, 122);
+    text-shadow: .5px .5px black;
+}
+span{
+    color: #61b012;
+}
+.div1 p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #9deb4f, #568e1d );
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-shadow: .5px .5px gray;
+}
+
+.sec2{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 150px;
+    background-image: url(images/shapes/7.png);
+    
+}
+
+.div3 img{
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.div4 {
+    width: 50%;
+    padding-top: 12%;
+    line-height: 30px;
+    padding-right: 30px;
+}
+.div4 h1{
+    font-size: 35px;
+    font-weight: bold;
+    color:#61b012;
+    text-shadow: .5px .5px black;
+}
+
+.div4 p{
+    
+    font-size: 19px;
+}
+
+.recipie-item{
+    margin-bottom: 150px;
+}
+.recipies{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.recipies h1{
+    color: slategrey;
+    font-size: 30px;
+    text-shadow: .5px .5px black;
+}
+
+
+.item{
+    display: flex;
+    padding: 3%;
+    margin-bottom: 100px;
+
+}
+.item img{
+    width: 100%;
+}
+.item-box-1{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.443);
+    border-radius: 30px;
+    margin-right: 3%;
+    padding: 2%;
+    
+    
+    
+}
+.item-box-2{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.379);
+    border-radius: 30px;
+    margin-left: 3%;
+    padding:2%;
+}
+.numbers{
+    display: flex;
+    width: 74%;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.397);
+    text-align: center;
+    padding: 3% 10%;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+.div-numbers{
+    width: 33%;
+}
+.div-numbers h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(125, 125, 125);
+    height: 200px;
+    padding-top: 3%;
+    padding-bottom: 1%;
